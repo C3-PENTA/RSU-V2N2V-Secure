@@ -25,3 +25,5 @@
         "title": "Fetching...",
         "message": "The system is synthesizing and retrieving data."
       },
+      "cancel_request": "Operation canceled due to new request."
+    },

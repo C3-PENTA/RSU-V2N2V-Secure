@@ -13,3 +13,14 @@ import { ReactComponent as LogoDark } from '@/assets/icons/Logo.svg';
 
 import './AppHeader.scss';
 
+export const AppHeader = () => {
+    const { t } = useTranslation();
+  
+    const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+    const isDarkMode = colorScheme === 'dark';
+  
+    const [toggleLang, setToggleLang] = useState(
+      localStorage.getItem('i18nextLng') || defaultLanguage,
+    );
+
+}

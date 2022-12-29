@@ -3,3 +3,7 @@
     "hello_world": "안녕하세요 세계",
     "title": "안녕하세요"
   },
+  "list_event": {
+    "title": "이벤트 나열"
+  }
+}

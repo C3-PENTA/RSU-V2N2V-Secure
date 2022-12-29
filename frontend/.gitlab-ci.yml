@@ -12,3 +12,12 @@ sonar_analysis:
     - if: $CI_COMMIT_BRANCH == "main"
       when: manual
     - when: never
+  image:
+    name: sonarsource/sonar-scanner-cli:latest
+    entrypoint: [""]
+  variables:
+    SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
+  cache:
+    key: "${CI_JOB_NAME}"
+    paths:
+      - .sonar/cache

@@ -7,5 +7,12 @@
       font-size: 0.9rem;
     }
   
+    &__size {
+      width: 6rem;
+  
+      .mantine-Select-input {
+        font-size: 1rem;
+      }
+    }
   }
   

@@ -37,4 +37,8 @@ export const AppHeader = () => {
         </Tooltip>
       ));
 
+      useEffect(() => {
+        i18n.changeLanguage(toggleLang);
+      }, [toggleLang]);
+    
 }

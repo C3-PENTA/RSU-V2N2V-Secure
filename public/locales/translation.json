@@ -14,3 +14,6 @@
       "hint": "Hover over this site to reconnect.",
       "comeback": "Hey, welcome back! Reconnecting"
     },
+    "date_picker": {
+      "placeholder": "Pick dates range"
+    },

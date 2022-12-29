@@ -23,6 +23,15 @@ export const AppHeader = () => {
       localStorage.getItem('i18nextLng') || defaultLanguage,
     );
 
+    /**
+   * Currently support only 2 languages.
+   * Use "Select" component instead of "ActionIcon" and
+   * update languageConfig.lang value to map with remaining attributes if needed.
+   *
+   * ref: https://mantine.dev/core/select/
+   *
+   * @note Remove the "d-none" class of ActionIcon to show this feature.
+   */
     const renderToggleLang = languageConfig.map((langConfig) => (
         <Tooltip key={langConfig.lang} withArrow label={langConfig.tooltip}>
           <ActionIcon

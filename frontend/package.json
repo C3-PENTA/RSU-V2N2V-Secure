@@ -5,3 +5,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:stg": "tsc && vite build --mode staging",
+    "preview": "vite preview",
+    "lint": "tsc && eslint ./src --ext ts,tsx --quiet && prettier --check \"src/**/*.{ts,tsx,scss}\"",

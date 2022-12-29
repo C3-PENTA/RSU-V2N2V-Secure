@@ -81,3 +81,6 @@
       "virus": "Virus Detection Event",
       "communication": "Node Communication Event"
     },
+    "info": {
+      "virus": "File name: {{fileName}}"
+    },

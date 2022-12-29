@@ -93,3 +93,10 @@
       "total": "{{totalRecords}} records"
     }
   },
+  "virus_detail": {
+    "title": "Virus detect detail information {{detailInfo}}",
+    "vendor_name": "Vendor name",
+    "desc": "{{positives}}/{{total}} security vendors flagged this file as malicious.",
+    "permalink": "Permalink"
+  }
+}

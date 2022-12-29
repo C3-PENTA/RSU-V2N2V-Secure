@@ -3,3 +3,9 @@
 VITE_API_URI='https://backend.datamore.io:3000/api/'
 VITE_API_SOCKET_URI='https://backend.datamore.io:3000/'
 
+VITE_CPU_THRESHOLD=80
+VITE_RAM_THRESHOLD=80
+VITE_NIC_THRESHOLD=0.9
+
+VITE_FILTER_DEBOUNCE_TIME=400
+

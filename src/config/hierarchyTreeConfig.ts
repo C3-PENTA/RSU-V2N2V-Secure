@@ -13,4 +13,12 @@ export const NodeStatusConfig: IStatusConfig[] = [
     label: 'dashboard.status.driving',
     color: 'green',
   },
+  {
+    key: 'TURN_AROUND',
+    status: ENodeStatus.TURN_AROUND,
+    label: 'dashboard.status.turn_around',
+    color: 'yellow',
+  },
+  { key: 'PASS', status: ENodeStatus.PASS, label: 'dashboard.status.pass', color: 'blue' },
+
 ];

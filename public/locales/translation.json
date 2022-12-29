@@ -78,3 +78,6 @@
     "no_data": "No Data",
     "category": {
       "availability_status_tranfer": "Node Availability Status Transfer Event",
+      "virus": "Virus Detection Event",
+      "communication": "Node Communication Event"
+    },

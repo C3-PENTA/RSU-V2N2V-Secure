@@ -24,10 +24,12 @@ export const HierarchyTreeCanvas = ({ hideAttribution }: { hideAttribution: bool
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
 
   const onInit = (_: ReactFlowInstance | undefined) => {
+    // Execute when diagram is ready
   };
 
   const nodeTypes = useMemo(() => ({ customNode: HierarchyNodeCustom }), []);
 
+  // Reflect diagram data changes instantly depend on rawDiagramData props of HierarchyTree parent component.
   useEffect(() => {
     const { initialNodes, initialEdges } = handleDiagramData(rawDiagramData);
     setNodes(processAutoLayoutDiagram(initialNodes, initialEdges));

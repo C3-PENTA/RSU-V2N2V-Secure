@@ -1,3 +1,5 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "target": "ESNext",
+    "useDefineForClassFields": true,

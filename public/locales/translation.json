@@ -87,3 +87,9 @@
     "scroll": {
       "endOfRecords": "No more records."
     },
+    "export": {
+      "btn_tooltip": "Export data",
+      "file_name": "[Penta]List_events_{{createDate}}",
+      "total": "{{totalRecords}} records"
+    }
+  },

@@ -8,5 +8,32 @@
       }
     }
   
+    &__node {
+      /*
+        Comment the padding & min-height styles below if use diagramDemoData to preview diagram data instead of data from server or 
+        the :has selector is end experimental and modern browsers fully support it. https://caniuse.com/css-has
+      */
+      padding: 5px !important;
+      min-height: 40px;
+  
+      width: 90px !important;
+      color: inherit !important;
+      border-radius: 4px !important;
+      border: 1px solid #1a192b;
+  
+      &--virus {
+        background: var(--theme-default);
+        animation: blink-purple 1s infinite;
+      }
+  
+      span {
+        opacity: 0.7;
+      }
+  
+      &:has(span) {
+        padding: 5px !important;
+      }
+    }
+  
   }
   

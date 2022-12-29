@@ -17,3 +17,11 @@
     "date_picker": {
       "placeholder": "Pick dates range"
     },
+    "search": "Search",
+    "numerical_order": "No.",
+    "content": "Content",
+    "communication": {
+      "fetching": {
+        "title": "Fetching...",
+        "message": "The system is synthesizing and retrieving data."
+      },

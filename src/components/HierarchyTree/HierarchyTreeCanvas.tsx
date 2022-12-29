@@ -28,4 +28,14 @@ export const HierarchyTreeCanvas = ({ hideAttribution }: { hideAttribution: bool
 
   const nodeTypes = useMemo(() => ({ customNode: HierarchyNodeCustom }), []);
 
+  useEffect(() => {
+    const { initialNodes, initialEdges } = handleDiagramData(rawDiagramData);
+    setNodes(processAutoLayoutDiagram(initialNodes, initialEdges));
+    setEdges(initialEdges);
+
+    setTimeout(() => {
+      fitView({ duration: 500 });
+    }, 200);
+  }, [rawDiagramData]);
+
 };

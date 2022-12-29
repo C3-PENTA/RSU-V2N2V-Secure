@@ -60,6 +60,23 @@ export const listEventTableConfig: IListEventTable[] = [
     render: (data) => {
       const renderContent = renderEventInfo(data);
 
+      if (!renderContent) {
+        return <></>;
+      }
+
+      return (
+        <Tooltip
+          label={
+            <div style={{ maxWidth: '12rem', wordBreak: 'break-word' }}>
+              {getEventInfoTextOnly(data, true)}
+            </div>
+          }
+          wrapLines
+        >
+          {renderContent}
+        </Tooltip>
+      );
+    },
     rawContent: (data) => getEventInfoTextOnly(data),
   },
 ];

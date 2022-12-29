@@ -18,4 +18,6 @@ export const PaginationList = <T extends IPaginationData>({
     isFetching: boolean;
     setIsFetching: Dispatch<SetStateAction<boolean>>;
   };
+  paginationData?: IPaginationData;
+  filterForm: UseForm<T>;
 }) 

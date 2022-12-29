@@ -47,4 +47,27 @@ export const AppHeader = () => {
         }
       }, []);
     
+      return (
+        <Header height={60} className="px-3">
+          <Group sx={{ height: '100%' }} px={20} position="apart">
+            <Link className="header__logo" to={Path.HOMEPAGE}>
+              {isDarkMode ? <LogoDark /> : <Logo />}
+            </Link>
+            <div className="d-flex justify-between align-center">
+              <Tooltip withArrow label={t('common.theme.' + colorScheme)}>
+                <ActionIcon
+                  variant="outline"
+                  size="lg"
+                  radius="xl"
+                  color={isDarkMode ? 'yellow' : ''}
+                  onClick={() => toggleColorScheme()}
+                >
+                  {isDarkMode ? <MoonStars size={18} /> : <Sun size={18} />}
+                </ActionIcon>
+              </Tooltip>
+              {renderToggleLang}
+            </div>
+          </Group>
+        </Header>
+      );
 }

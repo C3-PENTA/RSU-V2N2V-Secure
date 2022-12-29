@@ -84,3 +84,6 @@
     "info": {
       "virus": "File name: {{fileName}}"
     },
+    "scroll": {
+      "endOfRecords": "No more records."
+    },

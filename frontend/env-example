@@ -12,4 +12,5 @@ VITE_FILTER_DEBOUNCE_TIME=400
 # Control blinking animation duration (Node exceed threshold or virus detected). Default: 5000 milliseconds.
 VITE_UI_BLINKING_TIMEOUT=5000
 
-# Determine how long the node connection changes its state 
+# Determine how long the node connection changes its state (Connection → Communication → Disconnect). Default: 1000 milliseconds.
+VITE_UI_CONNECTION_TIMEOUT=1000

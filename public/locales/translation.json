@@ -59,3 +59,9 @@
       "description": "Page not found!"
     }
   },
+  "dashboard": {
+    "hello_world": "Hello world",
+    "title": "Condition Monitoring Portal",
+    "communication": "Communication",
+    "connection": "Connection",
+    "status": {

@@ -1,3 +1,14 @@
 stages:
   - Sonar
 
+# Sonar scanner, scan and analyse source code using SonarQ
+sonar_analysis:
+  stage: Sonar
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: always
+    - if: $CI_COMMIT_BRANCH == "develop"
+      when: manual
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: manual
+    - when: never

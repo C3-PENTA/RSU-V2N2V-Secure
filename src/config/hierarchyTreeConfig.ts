@@ -20,5 +20,11 @@ export const NodeStatusConfig: IStatusConfig[] = [
     color: 'yellow',
   },
   { key: 'PASS', status: ENodeStatus.PASS, label: 'dashboard.status.pass', color: 'blue' },
-
+  {
+    key: 'VIRUS_EXCEED',
+    status: ENodeStatus.VIRUS_EXCEED,
+    label: 'dashboard.status.virus',
+    className: 'virus',
+    color: 'purple',
+  },
 ];

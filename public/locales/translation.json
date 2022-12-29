@@ -41,3 +41,7 @@
         "title": "Realtime Data Issue",
         "message": "socket: Cannot connect to server. Close this or refresh page to re-connect."
       },
+      "virus": {
+        "title": "Virus Detected!",
+        "message": "{{nodeName}} (ID: {{nodeID}}): Detected virus in file {{fileName}}"
+      },

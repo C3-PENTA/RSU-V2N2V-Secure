@@ -45,3 +45,11 @@
         "title": "Virus Detected!",
         "message": "{{nodeName}} (ID: {{nodeID}}): Detected virus in file {{fileName}}"
       },
+      "exceed_threshold": {
+        "title": "Exceed Threshold!",
+        "message": "{{nodeName}} (ID: {{nodeID}}): "
+      },
+      "device_notfound": {
+        "title": "Something went wrong!",
+        "message": "socket: Cannot find device that related with event: {{eventID}}"
+      },

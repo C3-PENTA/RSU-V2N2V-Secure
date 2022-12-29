@@ -73,3 +73,7 @@
       "virus": "Detect virus/Exceed Threshold"
     }
   },
+  "list_event": {
+    "title": "List Event",
+    "no_data": "No Data",
+    "category": {

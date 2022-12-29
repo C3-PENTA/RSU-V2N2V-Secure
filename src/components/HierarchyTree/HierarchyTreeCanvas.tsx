@@ -38,4 +38,23 @@ export const HierarchyTreeCanvas = ({ hideAttribution }: { hideAttribution: bool
     }, 200);
   }, [rawDiagramData]);
 
+  return (
+    <ReactFlow
+      className={hideAttribution ? 'react-flow__white-censor' : ''}
+      nodes={nodes}
+      edges={edges}
+      onNodesChange={onNodesChange}
+      onEdgesChange={onEdgesChange}
+      onInit={onInit}
+      fitView
+      elementsSelectable={false}
+      nodesDraggable={false}
+      nodesConnectable={false}
+      nodeTypes={nodeTypes}
+      defaultEdgeOptions={{ type: 'straight' }}
+    >
+      <Controls showInteractive={false} />
+      <Background color="#aaa" gap={16} />
+    </ReactFlow>
+  );
 };

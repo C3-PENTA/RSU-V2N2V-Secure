@@ -53,3 +53,5 @@
         "title": "Something went wrong!",
         "message": "socket: Cannot find device that related with event: {{eventID}}"
       },
+      "sth_wrong": "Something went wrong. Please try again later!"
+    },

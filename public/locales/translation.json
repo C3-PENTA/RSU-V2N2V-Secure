@@ -6,3 +6,11 @@
       "light": "Light mode",
       "switch": "Toggle color scheme mode"
     },
+    "home_page": "Homepage",
+    "request_confirm": "Request confirmation",
+    "afk": {
+      "title": "Standby mode",
+      "description": "Switched to standby mode to reduce unnecessary data transmission.\nAre you there? It's been more than {{afkTime}} minutes with no action detected!",
+      "hint": "Hover over this site to reconnect.",
+      "comeback": "Hey, welcome back! Reconnecting"
+    },

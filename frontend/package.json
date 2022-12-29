@@ -33,3 +33,13 @@
     "socket.io-client": "^4.5.1",
     "tabler-icons-react": "^1.48.1",
     "vite-plugin-svgr": "^2.1.0",
+    "vite-tsconfig-paths": "^3.5.0",
+    "xlsx": "^0.18.5",
+    "zustand": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@types/dagre": "^0.7.47",
+    "@types/react": "^18.0.10",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",

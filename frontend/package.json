@@ -8,3 +8,6 @@
     "build:stg": "tsc && vite build --mode staging",
     "preview": "vite preview",
     "lint": "tsc && eslint ./src --ext ts,tsx --quiet && prettier --check \"src/**/*.{ts,tsx,scss}\"",
+    "lint--fix": "eslint ./src --ext ts,tsx --quiet --fix && prettier --write \"src/**/*.{ts,tsx,scss}\"",
+    "format": "prettier --write \"src/**/*.{ts,tsx,scss}\""
+  },

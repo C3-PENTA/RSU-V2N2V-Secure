@@ -6,5 +6,12 @@ export const HierarchyNodeCustom = (nodeProps: NodeProps) => {
       {nodeProps.data.label}
       <Handle type="source" position={Position.Bottom} />
       <Handle type="target" position={Position.Top} />      
+
+      <Handle
+        className="absolute-center visibility-hidden"
+        type="source"
+        position={Position.Right}
+        id={`hs-${nodeProps.id}`}
+      />
   );
 };

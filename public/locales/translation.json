@@ -1,0 +1,8 @@
+{
+  "common": {
+    "loading": "Loading",
+    "theme": {
+      "dark": "Dark mode",
+      "light": "Light mode",
+      "switch": "Toggle color scheme mode"
+    },

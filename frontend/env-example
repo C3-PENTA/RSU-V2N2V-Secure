@@ -14,3 +14,7 @@ VITE_UI_BLINKING_TIMEOUT=5000
 
 # Determine how long the node connection changes its state (Connection → Communication → Disconnect). Default: 1000 milliseconds.
 VITE_UI_CONNECTION_TIMEOUT=1000
+
+# Determine how long the application goes to sleep AFTER the user afk. Default: 14400000 milliseconds = 4 hours.
+VITE_IDLE_TIMEOUT=14400000
+

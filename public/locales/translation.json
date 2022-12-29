@@ -31,3 +31,13 @@
       "info": "{{startIndex}} - {{endIndex}} of {{totalRecords}} records",
       "page_size": "{{size}}/page"
     },
+    "success": "Data was loaded.",
+    "error": {
+      "network": {
+        "title": "Network Issue",
+        "message": "Network connection error detected"
+      },
+      "socket": {
+        "title": "Realtime Data Issue",
+        "message": "socket: Cannot connect to server. Close this or refresh page to re-connect."
+      },

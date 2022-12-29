@@ -20,4 +20,17 @@ export const PaginationList = <T extends IPaginationData>({
   };
   paginationData?: IPaginationData;
   filterForm: UseForm<T>;
-}) 
+}) => {
+  const { t } = useTranslation();
+
+  return (
+    <div className="pagination d-flex align-center gap-3">
+      <div className="pagination__info">
+        {fetchingState.isFetching ? (
+          <Loader variant="dots" />
+        ) : (
+          renderPaginationInfo(paginationData)
+        )}
+
+  );
+};

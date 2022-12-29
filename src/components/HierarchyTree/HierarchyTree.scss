@@ -35,5 +35,19 @@
       }
     }
   
+    &__icon {
+      display: none;
+      position: absolute;
+      right: -0.45rem;
+      top: -0.45rem;
+  
+      width: 0.9rem;
+      height: 0.9rem;
+  
+      font-size: 0.6rem;
+      line-height: 0.9rem;
+      font-weight: 900;
+    }
+  
   }
   

@@ -28,3 +28,8 @@
     "react-flow-renderer": "^10.3.4",
     "react-i18next": "^11.16.9",
     "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^6.3.0",
+    "rxjs": "^7.5.5",
+    "socket.io-client": "^4.5.1",
+    "tabler-icons-react": "^1.48.1",
+    "vite-plugin-svgr": "^2.1.0",

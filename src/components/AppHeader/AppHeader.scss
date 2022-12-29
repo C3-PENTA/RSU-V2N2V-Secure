@@ -3,5 +3,11 @@
       cursor: pointer;
     }
   
+    &__lang {
+      img {
+        display: block;
+        height: 100%;
+      }
+    }
   }
   

@@ -77,3 +77,4 @@
     "title": "List Event",
     "no_data": "No Data",
     "category": {
+      "availability_status_tranfer": "Node Availability Status Transfer Event",

@@ -11,3 +11,9 @@
     "lint--fix": "eslint ./src --ext ts,tsx --quiet --fix && prettier --write \"src/**/*.{ts,tsx,scss}\"",
     "format": "prettier --write \"src/**/*.{ts,tsx,scss}\""
   },
+  "dependencies": {
+    "@mantine/core": "^4.2.7",
+    "@mantine/dates": "^4.2.7",
+    "@mantine/hooks": "^4.2.7",
+    "@mantine/notifications": "^4.2.7",
+    "@mantine/spotlight": "^4.2.7",

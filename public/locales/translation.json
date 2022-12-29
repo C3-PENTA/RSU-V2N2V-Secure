@@ -55,3 +55,7 @@
       },
       "sth_wrong": "Something went wrong. Please try again later!"
     },
+    "not_found": {
+      "description": "Page not found!"
+    }
+  },

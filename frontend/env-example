@@ -18,3 +18,5 @@ VITE_UI_CONNECTION_TIMEOUT=1000
 # Determine how long the application goes to sleep AFTER the user afk. Default: 14400000 milliseconds = 4 hours.
 VITE_IDLE_TIMEOUT=14400000
 
+# Specify the maximum number of records to be exported to an excel file. Default: 10000 records.
+VITE_EXPORT_RECORDS_LIMIT=10000
